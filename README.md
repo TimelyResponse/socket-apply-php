@@ -1,21 +1,3 @@
-# Websocket Client and Server for PHP
-
-[![Build Status](https://github.com/Textalk/websocket-php/actions/workflows/acceptance.yml/badge.svg)](https://github.com/Textalk/websocket-php/actions)
-[![Coverage Status](https://coveralls.io/repos/github/Textalk/websocket-php/badge.svg?branch=master)](https://coveralls.io/github/Textalk/websocket-php)
-
-This library contains WebSocket client and server for PHP.
-
-The client and server provides methods for reading and writing to WebSocket streams.
-It does not include convenience operations such as listeners and implicit error handling.
-
-## Documentation
-
-- [Client](docs/Client.md)
-- [Server](docs/Server.md)
-- [Examples](docs/Examples.md)
-- [Changelog](docs/Changelog.md)
-- [Contributing](docs/Contributing.md)
-
 ## Installing
 
 Preferred way to install is with [Composer](https://getcomposer.org/).
