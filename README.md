@@ -4,12 +4,6 @@ Preferred way to install is with [Composer](https://getcomposer.org/).
 ```
 composer require textalk/websocket
 ```
-
-* Current version support PHP versions `^7.4|^8.0`.
-* For PHP `7.2` and `7.3` support use version [`1.5`](https://github.com/Textalk/websocket-php/tree/1.5.0).
-* For PHP `7.1` support use version [`1.4`](https://github.com/Textalk/websocket-php/tree/1.4.0).
-* For PHP `^5.4` and `7.0` support use version [`1.3`](https://github.com/Textalk/websocket-php/tree/1.3.0).
-
 ## Client
 
 The [client](docs/Client.md) can read and write on a WebSocket stream.
@@ -37,13 +31,3 @@ $message = $server->receive();
 $server->text($message);
 $server->close();
 ```
-
-### License and Contributors
-
-[ISC License](COPYING.md)
-
-Fredrik Liljegren, Armen Baghumian Sankbarani, Ruslan Bekenev,
-Joshua Thijssen, Simon Lipp, Quentin Bellus, Patrick McCarren, swmcdonnell,
-Ignas Bernotas, Mark Herhold, Andreas Palm, Sören Jensen, pmaasz, Alexey Stavrov,
-Michael Slezak, Pierre Seznec, rmeisler, Nickolay V. Shmyrev, Christoph Kempen,
-Marc Roberts, Antonio Mora, Simon Podlipsky, etrinh.
